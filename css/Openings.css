@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:hover.myBtn{
+    background-color:  #880d53;;
+}
+:hover.TableHead{
+    cursor: pointer;
+}
+.myTh{
+    color: #337ab7;
+    text-decoration: none;
+    padding: 8px;
+    font: 18px Corbel,"Trebuchet MS"
+}
+td{
+    color: #717271;
+    padding: 8px;
+    font: 18px Corbel,"Trebuchet MS"
+}
+
+.myBtn{
+    color:white;
+    background-color: #00b3e3;
+    height: 50px;
+    /* line-height: 50px; */
+    border: none;
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50%;
+    /* width: 100px; */
+}
+
+.TableHead{
+    color: #337ab7;
+}
+#Table{
+    width: 85%;
+}
+#CurrentOpening{
+    font-weight: 700;
+    color: #880d53;
+    font-size: 30px;
+    margin: 15px auto;
+    
+    font-family: "Trebuchet MS";
+    margin-left: 100px;;
+}
+#CurrentOpeningdiv1{
+    display: flex;
+    justify-content:space-around ;
+    /* background-color: green; */
+}
+#CurrentOpeningdiv2{
+    display: flex;
+    justify-content:flex-end ;
+    /* background-color: green; */
+}
+label{
+    display: inline-block;
+    margin:20px;
+    max-width: 100%;
+    margin-bottom: 5px;
+    color: #717271;
+    font-weight: bold;
+    
+}

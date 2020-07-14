@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/Openings.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+
+ 
+
+
+
+
+  <title>Job Opening</title>
+
+<body>
+  <div id="CurrentOpeningdiv1">
+    <h2 id="CurrentOpening">Current Openings</h2>
+  </div>
+
+  <div style="display: flex; float:right; margin-right: 70px; ">
+    <div class="form-group">
+      <label for="usr">Locations</label>
+      <select onchange="selectedCity()" class="form-control" id="citySelect">
+        <option value="-Any-">-Any-</option>
+        <option value="San Francisci, CA">San Francisco, CA</option>
+        <option value="Pleasanton, CA">Pleasanton, CA</option>
+        <option value="Hyderabad, India">Hyderabad, India</option>
+        <option value="Rocklin, CA">Rocklin, CA</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Keywords</label>
+      <input onchange="selectedCity()" style="width: 80%; margin-left: 20px;" type="text" class="form-control"
+        id="Keywords">
+
+    </div>
+    <div class="form-group">
+      <label for="usr">Job Type</label>
+      <select onchange="selectedCity()" class="form-control" id="Worktype">
+        <option value="-Any-">-Any-</option>
+        <option value="Full Time">Full Time</option>
+        <option value="Contract">Contract</option>
+
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="usr">Team</label>
+      <select onchange="selectedCity()" class="form-control" id="Team">
+        <option value="-Any-">-Any-</option>
+        <option value="Nisum India">Nisum India</option>
+        <option value="Nisum US">Nisum US</option>
+        <option value="Adroit">Adroit</option>
+
+
+      </select>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <table id="myTable" class="table table-hover table-striped ">
+          <thead>
+            <tr>
+              <th style=" padding: 8px; ;
+            font: 18px ,  Trebuchet MS" class="TableHead" scope="col" onclick="SortFunc(0)">Job Title</th>
+              <th class="TableHead" scope="col" onclick="SortFunc(1)">Locations</th>
+            </tr>
+          </thead>
+        </table>
+
+      </div>
+    </div>
+  </div>
+</body>
+</head>
+
+<body>
+
+</body>
+
+<script src="js/Moc.js"></script>
+
+</html>
